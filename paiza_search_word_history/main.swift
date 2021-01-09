@@ -6,7 +6,7 @@
 //
 
 let input_firstLine = Int(readLine()!)
-let numberOfSearch = input_firstLine ?? 0
+let numberOfSearch = input_firstLine!
 var searchWord = [String]()
 
 for _ in 0..<numberOfSearch {
